@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out;
+  background-color: bisque;
+}
+
+.comment:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
+  transform: scaleY(1.03);
+  transform: translate(12);
+}
